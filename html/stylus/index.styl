@@ -1,0 +1,859 @@
+$rem=75
+#app
+  width 100%
+  height 100%
+  position relative
+  .contentContainer
+    width 100%
+    height 100%
+    .hide
+      display none
+      &.show
+       display block
+    #home
+      width 100%
+      background #eee
+      .headerContainer
+        height (88/$rem)rem
+        width 100%
+        display flex
+        align-items center
+        justify-content space-around
+        .logo
+          background url("../images/logo/logo.png") no-repeat
+          font-size (35/$rem)rem
+          float left
+          color transparent
+          vertical-align middle
+        .headerSearch
+          float left
+          width (442/$rem)rem
+          height (56/$rem)rem
+          line-height (56/$rem)rem
+          text-align center
+          border-radius (10/$rem)rem
+          background #ccc
+          .text
+            font-size (30/$rem)rem
+            color #333
+            vertical-align top
+          .icon-fangdajing
+            display inline-block
+            font-size (50/$rem)rem
+            vertical-align top
+        button
+          float left
+          width (74/$rem)rem
+          height (40/$rem)rem
+          margin-right (13/$rem)rem
+          border-radius (10/$rem)rem
+          font-size (25/$rem)rem
+          border 1px solid #b4282d
+          background-color transparent
+          color #b4282d
+      .headerNav
+        display flex
+        justify-content space-around
+        align-items center
+        width 100%
+        height (60/$rem)rem
+        .tab
+         font-size (28/$rem)rem
+         color #4A494B
+         .icon-iconfontplatformentrance-copy
+           display inline-block
+           width (40/$rem)rem
+           height (40/$rem)remwidth (40/$rem)rem
+           height (40/$rem)rem
+           font-size (40/$rem)rem
+           color #4A494B
+      .swiper
+        width 100%
+        height  (370/$rem)rem
+        .swiper-container
+          width 100%
+          height 100%
+          img
+           width 100%
+           height 100%
+      .self-support
+        display flex
+        justify-content center
+        vertical-align top
+        height (72/$rem)rem
+        width 100%
+        line-height (39/$rem)rem
+        padding-left (30/$rem)rem
+        box-sizing border-box
+        .self-brand
+          a
+           font-size (25/$rem)rem
+           margin-right (35/$rem)rem
+          .iconfont
+            display inline-block
+            font-size (35/$rem)rem
+            color #b4282d
+            vertical-align bottom
+            margin-right (-15/$rem)rem
+      .goodsNav
+        width 100%
+        height (372/$rem)rem
+        display flex
+        flex-wrap wrap
+        align-items center
+        .good
+          width 20%
+          height (156/$rem)rem
+          display flex
+          justify-content center
+          a
+            width (110/$rem)rem
+            height (156/$rem)rem
+            display inline-block
+            img
+              width (110/$rem)rem
+              height (110/$rem)rem
+            span
+              font-size (26/$rem)rem
+              vertical-align top
+      .rushArea
+        width 100%
+        background  #eee
+        .rushBuy
+          width 100%
+          height (126/$rem)rem
+          img
+            width 100%
+            height (126/$rem)rem
+        .employee
+          width 100%
+          height (576/$rem)rem
+          display flex
+          flex-wrap wrap
+          justify-content center
+          align-content  center
+          background white
+          a
+           width (343/$rem)rem
+           height (264/$rem)rem
+           background #eee
+           border 2px solid #fff
+           .textTitle
+             font-size (34/$rem)rem
+             color #333
+             margin (28/$rem)rem 0 (10/$rem)rem (28/$rem)rem
+             font-weight bold
+           .text
+             display block
+             font-size (28/$rem)rem
+             margin-left (28/$rem)rem
+           img
+             font-size (150/$rem)rem
+        .popular-items
+          height (470/$rem)rem
+          background white
+          margin-top (20/$rem)rem
+          .swiper-container
+            width 100%
+            height  (450/$rem)rem
+            .tex
+              font-size (35/$rem)rem
+              height (100/$rem)rem
+              line-height (100/$rem)rem
+              padding-left (35/$rem)rem
+            .swiper-wrapper
+              .swiper-slide
+                display flex
+                justify-content space-around
+                .itemImg
+                  width (216/$rem)rem
+                  height (300/$rem)rem
+                  img
+                   width (216/$rem)rem
+                   height (216/$rem)rem
+                   background #eee
+                  .text
+                   font-size (24/$rem)rem
+                   width (216/$rem)rem
+                   display -webkit-box
+                   overflow hidden
+                   line-height (40/$rem)rem
+                   font-family PingFangSC-Regular
+                   color #333
+                  .money
+                   color #b4282d
+                   font-size (24/$rem)rem
+        .limitedTime
+          width 100%
+          height (700/$rem)rem
+          background white
+          margin-top (20/$rem)rem
+          .tex
+            font-size (35/$rem)rem
+            height (100/$rem)rem
+            line-height (100/$rem)rem
+            padding 0 (35/$rem)rem
+            span
+              float right
+              font-size (30/$rem)rem
+            .icon-jianto
+              font-size (30/$rem)rem
+              float right
+          .itemImg
+            width (216/$rem)rem
+            height (300/$rem)rem
+            float left
+            margin-left (25/$rem)rem
+            img
+              width (216/$rem)rem
+              height (216/$rem)rem
+              background #eee
+            .money
+              display block
+              color #b4282d
+              font-size (30/$rem)rem
+              margin-left (10/$rem)rem
+        .newGoogs
+          width 100%
+          height (834/$rem)rem
+          background white
+          margin-top (20/$rem)rem
+          .tex
+            font-size (35/$rem)rem
+            height (100/$rem)rem
+            line-height (100/$rem)rem
+            padding 0 (35/$rem)rem
+            span
+              float right
+              font-size (30/$rem)rem
+            .icon-jianto
+              font-size (30/$rem)rem
+              float right
+              vertical-align middle
+          .itemImg
+            width (216/$rem)rem
+            height (337/$rem)rem
+            float left
+            margin-left (25/$rem)rem
+            img
+              width (216/$rem)rem
+              height (216/$rem)rem
+              background #eee
+            .text
+              font-size (24/$rem)rem
+              width (216/$rem)rem
+              display -webkit-box
+              overflow hidden
+              line-height (40/$rem)rem
+              font-family PingFangSC-Regular
+              color #333
+            .money
+              color #b4282d
+              font-size (24/$rem)rem
+        .recommend
+          width 100%
+          height (784/$rem)rem
+          background white
+          margin-top (20/$rem)rem
+          .tex
+            font-size (35/$rem)rem
+            height (100/$rem)rem
+            line-height (100/$rem)rem
+            padding 0 (35/$rem)rem
+            span
+              float right
+              font-size (30/$rem)rem
+            .icon-jianto
+              font-size (30/$rem)rem
+              float right
+              vertical-align middle
+          .itemHeader
+            display block
+            width (698/$rem)rem
+            height (280/$rem)rem
+            background antiquewhite
+            margin 0  auto (20/$rem)rem
+            display flex
+            .recommendImg
+              width (280/$rem)rem
+              height (280/$rem)rem
+              line-height (280/$rem)rem
+              text-align center
+              img
+                width (280/$rem)rem
+                height (280/$rem)rem
+            .text
+              font-size (30/$rem)rem
+              font-family PingFangSC-Regular
+              color #333
+              display flex
+              flex-direction column
+              justify-content center
+              margin-left (25/$rem)rem
+              .text-one
+                border (2/$rem)rem  solid #b4282d
+                width (120/$rem)rem
+                height (30/$rem)rem
+                font-size (21/$rem)rem
+                text-align center
+                line-height (30/$rem)rem
+                background white
+                color #b4282d
+              .title
+                width (380/$rem)rem
+                margin (10/$rem)rem 0
+              .text-two
+                color #7e8c8d
+                font-size (25/$rem)rem
+                margin-bottom (10/$rem)rem
+              .money
+                color #b4282d
+          .itemImg
+            width (216/$rem)rem
+            height (337/$rem)rem
+            float left
+            margin-left (25/$rem)rem
+            img
+              width (216/$rem)rem
+              height (216/$rem)rem
+              background #eee
+            .text
+              font-size (24/$rem)rem
+              width (216/$rem)rem
+              display -webkit-box
+              overflow hidden
+              line-height (40/$rem)rem
+              font-family PingFangSC-Regular
+              color #333
+            .money
+              color #b4282d
+              font-size (24/$rem)rem
+        .category-popular
+          width 100%
+          height (710/$rem)rem
+          background white
+          margin-top (20/$rem)rem
+          .tex
+            font-size (35/$rem)rem
+            height (100/$rem)rem
+            line-height (100/$rem)rem
+            padding 0 (35/$rem)rem
+          .category
+            width 100%
+            height (590/$rem)rem
+            display flex
+            flex-wrap wrap
+            justify-content center
+            .itemImg1
+              margin-right (10/$rem)rem
+            .itemImg
+              width (340/$rem)rem
+              height (200/$rem)rem
+              background beige
+              text-align center
+              .text
+                font-size (28/$rem)rem
+                vertical-align middle
+              img
+                width (200/$rem)rem
+                height (200/$rem)rem
+                vertical-align middle
+            .item1
+              margin-left (10/$rem)rem
+            .item
+              width (165/$rem)rem
+              height (180/$rem)rem
+              line-height (30/$rem)rem
+              background #eee
+              text-align center
+              margin-right (10/$rem)rem
+              .text
+                font-size (25/$rem)rem
+              img
+                width (120/$rem)rem
+                height (120/$rem)rem
+        .employee-two
+          width 100%
+          height (576/$rem)rem
+          display flex
+          flex-wrap wrap
+          justify-content center
+          align-content  center
+          background white
+          margin-top (20/$rem)rem
+          a
+            width (343/$rem)rem
+            height (264/$rem)rem
+            background #d9eeff
+            border 2px solid #fff
+            .textTitle
+              font-size (34/$rem)rem
+              color #333
+              margin (28/$rem)rem 0 (10/$rem)rem (28/$rem)rem
+              font-weight bold
+            .text
+              display block
+              font-size (28/$rem)rem
+              margin-left (28/$rem)rem
+            img
+              font-size (150/$rem)rem
+        .recommend-two
+          width 100%
+          height (665/$rem)rem
+          background white
+          margin-top (20/$rem)rem
+          .tex
+            font-size (35/$rem)rem
+            height (100/$rem)rem
+            line-height (100/$rem)rem
+            padding 0 (35/$rem)rem
+            span
+              float right
+              font-size (30/$rem)rem
+            .icon-jianto
+              font-size (30/$rem)rem
+              float right
+              vertical-align middle
+          .category
+            width 100%
+            height (554/$rem)rem
+            display flex
+            flex-wrap wrap
+            justify-content center
+            align-content  center
+            a
+              width (343/$rem)rem
+              height (260/$rem)rem
+              background #f5f5dc
+              border 2px solid #fff
+              .textTitle
+                font-size (34/$rem)rem
+                color #333
+                margin (28/$rem)rem 0 (10/$rem)rem (28/$rem)rem
+                font-weight bold
+              .text
+                display block
+                font-size (28/$rem)rem
+                margin-left (28/$rem)rem
+              img
+                font-size (150/$rem)rem
+        .special
+          width 100%
+          height (508/$rem)rem
+          background white
+          margin-top (20/$rem)rem
+          .tex
+            font-size (35/$rem)rem
+            height (100/$rem)rem
+            line-height (100/$rem)rem
+            padding 0 (35/$rem)rem
+            span
+              float right
+              font-size (30/$rem)rem
+            .icon-jianto
+              font-size (30/$rem)rem
+              float right
+              vertical-align middle
+          .specialContainer
+            position relative
+            .giftContainer
+              position absolute
+              left  0
+              top  0
+              display flex
+              overflow hidden
+              //width (1580/$rem)rem
+              .gift
+                width (480/$rem)rem
+                height (378/$rem)rem
+                border-radius (10/$rem)rem
+                overflow hidden
+                display flex
+                flex-direction column
+                background #eee
+                margin-left (30/$rem)rem
+                float left
+                img
+                 width (480/$rem)rem
+                 height (267/$rem)rem
+                .text
+                  font-size (30/$rem)rem
+                  width (420/$rem)rem
+                  height (35/$rem)rem
+                  margin (20/$rem)rem (20/$rem)rem (10/$rem)rem
+                span
+                  font-size (25/$rem)rem
+                  color #7e8c8d
+                  margin-left (20/$rem)rem
+        .goodsSwiper
+          width 100%
+          height (781/$rem)rem
+          background white
+          margin-top (20/$rem)rem
+          .goodsSwiperImg
+            width 100%
+            height (370/$rem)rem
+            img
+             width 100%
+             height (370/$rem)rem
+          .goodsSwiperContainer
+            width (200/$rem)rem
+            height (361/$rem)rem
+            display flex
+            padding-left (30/$rem)rem
+            box-sizing border-box
+            .goodsSwiperItem
+              width (200/$rem)rem
+              height (361/$rem)rem
+              display flex
+              flex-direction column
+              margin (20/$rem)rem (20/$rem)rem 0 0
+              img
+               width (200/$rem)rem
+               height (200/$rem)rem
+               background #eee
+               margin-bottom (20/$rem)rem
+              .text
+                display block
+                width (180/$rem)rem
+                font-size  (24/$rem)rem
+                white-space wrap
+                line-height (35/$rem)rem
+              .txt
+                font-size  (24/$rem)rem
+                color #b4282d
+      .appHeader
+        width 100%
+        height (245/$rem)rem
+        background #333333
+        margin-top (20/$rem)rem
+        display flex
+        align-items center
+        .copyright
+          height (62/$rem)rem
+          margin 0 auto
+          display flex
+          justify-content center
+          a
+           height (62/$rem)rem
+           line-height (62/$rem)rem
+           width  (200/$rem)rem
+           font-size (30/$rem)rem
+           border 1px solid white
+           color white
+           text-align center
+    #category
+      width 100%
+      .categoryHeader
+        height (88/$rem)rem
+        width 100%
+        border-bottom (1/$rem)rem solid #ccc
+        display flex
+        align-items center
+        .categorySearch
+          width 90%
+          height (56/$rem)rem
+          line-height (56/$rem)rem
+          text-align center
+          border-radius (10/$rem)rem
+          background #eee
+          margin 0 auto
+          .text
+            font-size (30/$rem)rem
+            color #333
+            vertical-align top
+          .icon-fangdajing
+            display inline-block
+            font-size (50/$rem)rem
+            vertical-align top
+      .categoryContent
+        width 90%
+        margin-top (20/$rem)rem
+        .categoryList
+           width (162/$rem)rem
+           height (1148/$rem)rem
+           float left
+           .categoryArea
+             width (162/$rem)rem
+             height (1120/$rem)rem
+             display flex
+             flex-direction column
+             justify-content space-around
+             .categoryItem
+               font-size (29/$rem)rem
+               width (162/$rem)rem
+               height (50/$rem)rem
+               text-align center
+               line-height (50/$rem)rem
+
+             .red::before
+               width (6/$rem)rem
+               height (50/$rem)rem
+               background #b4282d
+               display inline-block
+               content ''
+               vertical-align middle
+               float left
+               &.selectItem
+                 color #b4282d
+        .categorys
+          width (588/$rem)rem
+          height (1148/$rem)rem
+          margin-left (162/$rem)rem
+          .cate
+            width (528/$rem)rem
+            height (192/$rem)rem
+            position relative
+            .categoryLogo
+               width (528/$rem)rem
+               height (192/$rem)rem
+               position absolute
+               left (30/$rem)rem
+               img
+                width (528/$rem)rem
+                height (192/$rem)rem
+          .categorygoods
+             width (528/$rem)rem
+             display flex
+             flex-wrap wrap
+             justify-content space-around
+             align-content space-around
+             margin (20/$rem)rem 0 0 (20/$rem)rem
+             a
+              width (144/$rem)rem
+              height (216/$rem)rem
+              display flex
+              flex-direction column
+              img
+                width (144/$rem)rem
+                height (144/$rem)rem
+              span
+                font-size (25/$rem)rem
+                text-align center
+    #cart
+      width 100%
+      height 100%
+      background #eee
+      .cartHeader
+        width 100%
+        height (88/$rem)rem
+        line-height (88/$rem)rem
+        background white
+        text-align center
+        .text
+          font-size (35/$rem)rem
+          float left
+          margin-left (30/$rem)rem
+        .txt
+          font-size (30/$rem)rem
+          color #b4282d
+          float right
+          margin-right (60/$rem)rem
+      .self-support
+        display flex
+        justify-content space-around
+        vertical-align top
+        height (70/$rem)rem
+        width 100%
+        line-height (39/$rem)rem
+        padding-left (30/$rem)rem
+        box-sizing border-box
+        background #ccc
+        .self-brand
+          a
+            font-size (25/$rem)rem
+            margin-right (35/$rem)rem
+          .iconfont
+            display inline-block
+            vertical-align bottom
+            margin-right (-15/$rem)rem
+      .cartImg
+        width (400/$rem)rem
+        height (248/$rem)rem
+        position absolute
+        left 0
+        top 0
+        bottom 0
+        right  0
+        margin auto
+        .img
+          background-image  url("../images/shops/cart.png")
+          background-size (248/$rem)rem
+          height (228/$rem)rem
+          width (248/$rem)rem
+          margin auto
+        .tex
+          font-size (27/$rem)rem
+          color rgb(189, 192, 204)
+          text-align center
+        .login
+          font-size (30/$rem)rem
+          height (80/$rem)rem
+          line-height (80/$rem)rem
+          width (400/$rem)rem
+          background #b4282d
+          color  white
+          text-align center
+          margin-top (30/$rem)rem
+    #personal
+      width 100%
+      height 100%
+      background #F2F5F4
+      .personHeader
+        width 100%
+        height (44/$rem)rem
+        background white
+        line-height (44/$rem)rem
+        vertical-align bottom
+        .iconfont
+          width 100%
+          height (44/$rem)rem
+          display flex
+          justify-content center
+          align-items center
+          padding-left (14/$rem)rem
+          box-sizing border-box
+          .iconfont-index
+            background url("../images/footer/tabBar.png") 0 (-150/$rem)rem no-repeat
+            background-size (24/$rem)rem
+            width (85/$rem)rem
+            height (22/$rem)rem
+            float left
+          img
+            display block
+            width (86/$rem)rem
+            height (27/$rem)rem
+            margin auto
+          .iconfont-right
+            width (90/$rem)rem
+            height (32/$rem)rem
+            line-height (32/$rem)rem
+            float right
+            vertical-align bottom
+            display flex
+            align-items center
+            justify-content space-around
+            margin-right (20/$rem)rem
+            .icon-fangdajing
+              width (25/$rem)rem
+              height (25/$rem)rem
+              font-size (35/$rem)rem
+              line-height (25/$rem)rem
+            .iconfont-cart
+              background url("../images/footer/tabBar.png") 0 (-30/$rem)rem no-repeat
+              background-size (24/$rem)rem
+              width (24/$rem)rem
+              height (22/$rem)rem
+      .personContent
+        width 100%
+        .logo2
+          width 100%
+          height (241/$rem)rem
+          line-height (241/$rem)rem
+          text-align center
+          img
+            width (134/$rem)rem
+            height (45/$rem)rem
+        .personLogin
+          width 100%
+          height (110/$rem)rem
+          display flex
+          flex-direction column
+          justify-content space-between
+          .phone
+            width (335/$rem)rem
+            height (47/$rem)rem
+            background #b4282d
+            border-radius (3/$rem)rem
+            margin 0 auto
+            display flex
+            justify-content center
+            align-items center
+            .icon-shouji
+             font-size (20/$rem)rem
+             color white
+             margin-right (10/$rem)rem
+            span
+             font-size (15/$rem)rem
+             color white
+          .email
+            width (335/$rem)rem
+            height (47/$rem)rem
+            border (1/$rem)rem solid #b4282d
+            border-radius (3/$rem)rem
+            margin 0 auto
+            display flex
+            justify-content center
+            align-items center
+            .icon-youxiang
+              font-size (20/$rem)rem
+              color #b4282d
+              margin-right (10/$rem)rem
+            span
+              font-size (15/$rem)rem
+              color #b4282d
+        .footIcon
+          width 100%
+          height (20/$rem)rem
+          display flex
+          justify-content center
+          position absolute
+          bottom (40/$rem)rem
+          .footItemQq
+            border-left (1/$rem)rem solid #ccc
+            border-right (1/$rem)rem solid #ccc
+          .footItem
+            width (90/$rem)rem
+            height (20/$rem)rem
+            display flex
+            justify-content center
+            align-items center
+            .iconfont
+              width (20/$rem)rem
+              height (20/$rem)rem
+              font-size (20/$rem)rem
+              margin-right (5/$rem)rem
+            span
+              font-size (14/$rem)rem
+  .footerContainer
+    position fixed
+    bottom 0
+    width 100%
+    height (98/$rem)rem
+    background white
+    display flex
+    justify-content space-around
+    &.show
+      display none
+    a
+      display flex
+      flex-direction column
+      align-items center
+      justify-content center
+      .iconfont-index
+        display inline-block
+        width (40/$rem)rem
+        height (40/$rem)rem
+        background url("../images/footer/tabBar.png") 0 (-253/$rem)rem no-repeat
+      .iconfont-cate
+        display inline-block
+        width (40/$rem)rem
+        height (40/$rem)rem
+        background url("../images/footer/tabBar.png") 0 (-153/$rem)rem no-repeat
+      .iconfont-topic
+        display inline-block
+        width (40/$rem)rem
+        height (40/$rem)rem
+        background url("../images/footer/tabBar.png") 0 (-353/$rem)rem no-repeat
+      .iconfont-cart
+        display inline-block
+        width (40/$rem)rem
+        height (40/$rem)rem
+        background url("../images/footer/tabBar.png") 0 (-53/$rem)rem no-repeat
+      .iconfont-ucenter
+        display inline-block
+        width (40/$rem)rem
+        height (40/$rem)rem
+        background url("../images/footer/tabBar.png") 0 (-453/$rem)rem no-repeat
+      span
+        font-size (25/$rem)rem
